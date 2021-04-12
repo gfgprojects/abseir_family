@@ -29,6 +29,7 @@ public class GGmodel_scheduler{
 	public ArrayList<Family> schedulerFamiliesList;
 	public ArrayList<Family> caseZeroFamiliesList;
 	
+
 	public GGmodel_scheduler(Context<Object> theContext,ArrayList<Individual> allIndividualsList,ArrayList<Family> allFamiliesList){
 		ggmodelContext=theContext;
 		try{
