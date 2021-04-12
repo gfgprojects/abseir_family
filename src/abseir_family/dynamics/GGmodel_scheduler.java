@@ -32,8 +32,8 @@ public class GGmodel_scheduler{
 	public GGmodel_scheduler(Context<Object> theContext,ArrayList<Individual> allIndividualsList,ArrayList<Family> allFamiliesList){
 		ggmodelContext=theContext;
 		try{
-			individualsList=ggmodelContext.getObjects(Class.forName("ggmodel.agents.Individual"));
-			familiesList=ggmodelContext.getObjects(Class.forName("ggmodel.agents.Family"));
+			individualsList=ggmodelContext.getObjects(Class.forName("abseir_family.agents.Individual"));
+			familiesList=ggmodelContext.getObjects(Class.forName("abseir_family.agents.Family"));
 		}
 		catch(ClassNotFoundException e){
 			System.out.println("Class not found");
