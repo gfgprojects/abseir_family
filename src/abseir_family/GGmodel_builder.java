@@ -14,8 +14,8 @@ public class GGmodel_builder implements ContextBuilder<Object>{
 	public static int caseZetoTime=10;
 	public static int swabTestAndQuarantineStartingTime=2000; //15
 	public static int immunizationStartingTime=1; //100
-	public static boolean individualsBasedInnumization=false;
-	public static int newImmunizationDosesAvailableAtEachTime=150;
+	public static boolean individualsBasedInnumization=true;
+	public static int newImmunizationDosesAvailableAtEachTime=100;
 	public static double shareOfAvailableImmunizationDosesToFragile=1.0;
 	public static int recoveryTimeInAsymptomatics=8;
 	public static int minimumDiscoveryTimeInInfected=3; //latency
@@ -24,7 +24,7 @@ public class GGmodel_builder implements ContextBuilder<Object>{
 	public static int immunityAfterFirstInfection=-90;
 	public static int immunityAfterImmunization=-1000;
 	public static double contagionProbabilityInFamily=0.1;
-	public static double contagionProbabilityOutOfFamily=0.01;
+	public static double contagionProbabilityOutOfFamily=0.03;
 	public static int minNumberOfContactsOutOfFamily=10;
 	public static int maxNumberOfContactsOutOfFamily=10;
 	public static int caseZeroNumberOfContactsOutOfFamily=10;
